@@ -14,7 +14,7 @@ int tich(int a, int b)
 	return a * b;
 
 }
-
+//Hieu
 
 int tong(int a, int b)
 {
