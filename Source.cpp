@@ -2,7 +2,6 @@
 #include <iostream>
 
 using namespace std;
-<<<<<<< HEAD
 
 
 int hieu(int a, int b) {
@@ -11,7 +10,6 @@ int hieu(int a, int b) {
 	return hieu;
 }
 
-=======
 int tong(int a, int b);
 int hieu(int a, int b);
 int tich(int a, int b);
