@@ -6,12 +6,21 @@ int hieu(int a, int b);
 int tich(int a, int b);
 float thuong(int a, int b);
 
+
 int tich(int a, int b);
 
 int tich(int a, int b)
 {
 	return a * b;
 
+}
+
+
+int tong(int a, int b)
+{
+	int s = 0;
+	s = a + b;
+	return s;
 }
 
 float thuong(int a, int b) {
@@ -22,6 +31,7 @@ float thuong(int a, int b) {
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
+<<<<<<< HEAD
 
 	cout << "Nhap vao so a:";
 	cin >> a;
@@ -34,6 +44,9 @@ int main()
 
 
 	
+=======
+	cout << "\nTong la:" << tong;
+>>>>>>> 6c78dbf2bfc13abe446c0d1fc11fde4207c91ea4
 	system("pause");
 	return 0;
 }
