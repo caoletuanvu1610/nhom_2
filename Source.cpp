@@ -11,6 +11,10 @@ int tong(int a, int b)
 	s = a + b;
 	return s;
 }
+float thuong(int a, int b) {
+	return(a / b);
+}
+
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
